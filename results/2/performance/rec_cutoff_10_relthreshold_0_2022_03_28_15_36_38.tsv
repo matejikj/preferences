@@ -1,0 +1,2 @@
+model	nDCG	ItemCoverage	HR	RMSE
+UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=	0.2623259940051866	796.0	0.8213114754098361	7.3856956705492

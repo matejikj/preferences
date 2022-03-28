@@ -1,0 +1,188 @@
+2022-03-28 15:21:15.095333: I Start experiment
+2022-03-28 15:21:15.097654: I There will be the splitting
+2022-03-28 15:21:15.123261: I /home/matejikj/references/preference-elicitation/data/dataset10.tsv - Loaded
+2022-03-28 15:21:15.930676: I Test Fold 0
+2022-03-28 15:21:16.289515: I Statistics	Users:	610	Items:	8971	Transactions:	80419	Sparsity:	0.9853043778587105
+2022-03-28 15:21:16.515042: I Test Fold 1
+2022-03-28 15:21:16.862870: I Statistics	Users:	610	Items:	9010	Transactions:	80552	Sparsity:	0.9853437892323648
+2022-03-28 15:21:17.065366: I Test Fold 2
+2022-03-28 15:21:17.422428: I Statistics	Users:	610	Items:	8964	Transactions:	80672	Sparsity:	0.9852466331628883
+2022-03-28 15:21:17.617054: I Test Fold 3
+2022-03-28 15:21:17.969654: I Statistics	Users:	610	Items:	8980	Transactions:	80805	Sparsity:	0.9852486399649494
+2022-03-28 15:21:18.169478: I Test Fold 4
+2022-03-28 15:21:18.522060: I Statistics	Users:	610	Items:	8972	Transactions:	80896	Sparsity:	0.9852188594022935
+2022-03-28 15:21:19.347232: I Training begun for UserKNN\n
+2022-03-28 15:21:19.347315: I Hyperparameters:
+2022-03-28 15:21:19.347372: I meta set to namespace(save_recs=True)
+2022-03-28 15:21:19.347426: I neighbors set to 50
+2022-03-28 15:21:19.347479: I similarity set to cosine
+2022-03-28 15:21:19.347532: I implementation set to classical
+2022-03-28 15:21:19.347583: I Exploration: Test Fold exploration number 1
+2022-03-28 15:21:19.347653: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:21:19.347906: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:21:19.347941: W At least one basic metric requires full length recommendations
+2022-03-28 15:21:45.455985: I 
+2022-03-28 15:21:45.456028: I Test Evaluation results
+2022-03-28 15:21:45.456049: I Cut-off: 10
+2022-03-28 15:21:45.456068: I Eval Time: 18.46140742301941
+2022-03-28 15:21:45.456085: I Results
+2022-03-28 15:21:45.456104: I nDCG	0.27235
+2022-03-28 15:21:45.456121: I ItemCoverage	744
+2022-03-28 15:21:45.456137: I HR	0.82459
+2022-03-28 15:21:45.456154: I RMSE	16.37737
+2022-03-28 15:21:52.276762: I Training ended for UserKNN
+2022-03-28 15:21:52.277256: I Loss:\t-0.2723496401226673
+2022-03-28 15:21:52.277311: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:21:52.277391: I Best Model results:\t{10: {'nDCG': 0.2723496401226673, 'ItemCoverage': 744.0, 'HR': 0.8245901639344262, 'RMSE': 16.37736528798319}}
+2022-03-28 15:21:52.277438: I Training begun for UserKNN\n
+2022-03-28 15:21:52.277509: I Hyperparameters:
+2022-03-28 15:21:52.277552: I meta set to namespace(save_recs=True)
+2022-03-28 15:21:52.277621: I neighbors set to 50
+2022-03-28 15:21:52.277664: I similarity set to cosine
+2022-03-28 15:21:52.277732: I implementation set to classical
+2022-03-28 15:21:52.277818: I name set to UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=
+2022-03-28 15:21:52.277864: I Exploration: Test Fold exploration number 2
+2022-03-28 15:21:52.277933: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:21:52.278345: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:21:52.278513: W At least one basic metric requires full length recommendations
+2022-03-28 15:22:17.922068: I 
+2022-03-28 15:22:17.922107: I Test Evaluation results
+2022-03-28 15:22:17.922126: I Cut-off: 10
+2022-03-28 15:22:17.922144: I Eval Time: 17.80985116958618
+2022-03-28 15:22:17.922166: I Results
+2022-03-28 15:22:17.922197: I nDCG	0.28335
+2022-03-28 15:22:17.922213: I ItemCoverage	765
+2022-03-28 15:22:17.922230: I HR	0.82951
+2022-03-28 15:22:17.922247: I RMSE	16.29807
+2022-03-28 15:22:24.751298: I Training ended for UserKNN
+2022-03-28 15:22:24.751815: I Loss:\t-0.2833461731600022
+2022-03-28 15:22:24.751871: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:22:24.751944: I Best Model results:\t{10: {'nDCG': 0.2833461731600022, 'ItemCoverage': 765.0, 'HR': 0.8295081967213115, 'RMSE': 16.298071499770636}}
+2022-03-28 15:22:24.752031: I Training begun for UserKNN\n
+2022-03-28 15:22:24.752078: I Hyperparameters:
+2022-03-28 15:22:24.752125: I meta set to namespace(save_recs=True)
+2022-03-28 15:22:24.752200: I neighbors set to 50
+2022-03-28 15:22:24.752245: I similarity set to cosine
+2022-03-28 15:22:24.752289: I implementation set to classical
+2022-03-28 15:22:24.752363: I name set to UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=
+2022-03-28 15:22:24.752409: I Exploration: Test Fold exploration number 3
+2022-03-28 15:22:24.752454: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:22:24.753049: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:22:24.753118: W At least one basic metric requires full length recommendations
+2022-03-28 15:22:49.337955: I 
+2022-03-28 15:22:49.337993: I Test Evaluation results
+2022-03-28 15:22:49.338223: I Cut-off: 10
+2022-03-28 15:22:49.338254: I Eval Time: 16.84962010383606
+2022-03-28 15:22:49.338272: I Results
+2022-03-28 15:22:49.338288: I nDCG	0.27312
+2022-03-28 15:22:49.338304: I ItemCoverage	770
+2022-03-28 15:22:49.338319: I HR	0.82623
+2022-03-28 15:22:49.338335: I RMSE	16.61447
+2022-03-28 15:22:56.152132: I Training ended for UserKNN
+2022-03-28 15:22:56.152301: I Loss:\t-0.2731151059861382
+2022-03-28 15:22:56.152365: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:22:56.152816: I Best Model results:\t{10: {'nDCG': 0.2731151059861382, 'ItemCoverage': 770.0, 'HR': 0.8262295081967214, 'RMSE': 16.614471263808888}}
+2022-03-28 15:22:56.152849: I Training begun for UserKNN\n
+2022-03-28 15:22:56.152880: I Hyperparameters:
+2022-03-28 15:22:56.152950: I meta set to namespace(save_recs=True)
+2022-03-28 15:22:56.152991: I neighbors set to 50
+2022-03-28 15:22:56.153059: I similarity set to cosine
+2022-03-28 15:22:56.153097: I implementation set to classical
+2022-03-28 15:22:56.153132: I name set to UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=
+2022-03-28 15:22:56.153214: I Exploration: Test Fold exploration number 4
+2022-03-28 15:22:56.153249: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:22:56.153996: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:22:56.154142: W At least one basic metric requires full length recommendations
+2022-03-28 15:23:21.033755: I 
+2022-03-28 15:23:21.033790: I Test Evaluation results
+2022-03-28 15:23:21.034052: I Cut-off: 10
+2022-03-28 15:23:21.034081: I Eval Time: 17.264582872390747
+2022-03-28 15:23:21.034100: I Results
+2022-03-28 15:23:21.034116: I nDCG	0.27478
+2022-03-28 15:23:21.034132: I ItemCoverage	775
+2022-03-28 15:23:21.034148: I HR	0.81967
+2022-03-28 15:23:21.034164: I RMSE	16.52944
+2022-03-28 15:23:27.713173: I Training ended for UserKNN
+2022-03-28 15:23:27.713212: I Loss:\t-0.27477624908214393
+2022-03-28 15:23:27.713235: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:23:27.713253: I Best Model results:\t{10: {'nDCG': 0.27477624908214393, 'ItemCoverage': 775.0, 'HR': 0.819672131147541, 'RMSE': 16.52943788397938}}
+2022-03-28 15:23:27.713763: I Training begun for UserKNN\n
+2022-03-28 15:23:27.713792: I Hyperparameters:
+2022-03-28 15:23:27.714196: I meta set to namespace(save_recs=True)
+2022-03-28 15:23:27.714235: I neighbors set to 50
+2022-03-28 15:23:27.714277: I similarity set to cosine
+2022-03-28 15:23:27.714312: I implementation set to classical
+2022-03-28 15:23:27.714348: I name set to UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=
+2022-03-28 15:23:27.714383: I Exploration: Test Fold exploration number 5
+2022-03-28 15:23:27.714417: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:23:27.714946: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:23:27.714998: W At least one basic metric requires full length recommendations
+2022-03-28 15:23:52.498922: I 
+2022-03-28 15:23:52.498971: I Test Evaluation results
+2022-03-28 15:23:52.499008: I Cut-off: 10
+2022-03-28 15:23:52.499043: I Eval Time: 17.051543712615967
+2022-03-28 15:23:52.499078: I Results
+2022-03-28 15:23:52.499141: I nDCG	0.27583
+2022-03-28 15:23:52.499159: I ItemCoverage	730
+2022-03-28 15:23:52.499176: I HR	0.8082
+2022-03-28 15:23:52.499192: I RMSE	16.60699
+2022-03-28 15:23:59.279345: I Training ended for UserKNN
+2022-03-28 15:23:59.279407: I Loss:\t-0.27582559545790114
+2022-03-28 15:23:59.279441: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:23:59.279474: I Best Model results:\t{10: {'nDCG': 0.27582559545790114, 'ItemCoverage': 730.0, 'HR': 0.8081967213114755, 'RMSE': 16.606986895499446}}
+2022-03-28 15:23:59.299502: I End experiment
+2022-03-28 15:23:59.300802: I Start experiment
+2022-03-28 15:23:59.318424: I /home/matejikj/references/preference-elicitation/results/10/split/0/train.tsv - Loaded
+2022-03-28 15:23:59.326420: I Test Fold 0
+2022-03-28 15:23:59.685945: I Statistics	Users:	610	Items:	8971	Transactions:	80419	Sparsity:	0.9853043778587105
+2022-03-28 15:23:59.880603: I Training begun for UserKNN\n
+2022-03-28 15:23:59.881169: I Hyperparameters:
+2022-03-28 15:23:59.881222: I meta set to namespace(save_recs=True)
+2022-03-28 15:23:59.881242: I neighbors set to 50
+2022-03-28 15:23:59.881259: I similarity set to cosine
+2022-03-28 15:23:59.881275: I implementation set to classical
+2022-03-28 15:23:59.881292: I Exploration: Test Fold exploration number 1
+2022-03-28 15:23:59.881308: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:23:59.881324: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:23:59.881341: W At least one basic metric requires full length recommendations
+2022-03-28 15:24:24.126315: I 
+2022-03-28 15:24:24.126360: I Test Evaluation results
+2022-03-28 15:24:24.126379: I Cut-off: 10
+2022-03-28 15:24:24.126396: I Eval Time: 17.096266269683838
+2022-03-28 15:24:24.126412: I Results
+2022-03-28 15:24:24.126429: I nDCG	0.27235
+2022-03-28 15:24:24.126445: I ItemCoverage	744
+2022-03-28 15:24:24.126461: I HR	0.82459
+2022-03-28 15:24:24.126477: I RMSE	16.37737
+2022-03-28 15:24:31.035553: I Training ended for UserKNN
+2022-03-28 15:24:31.035631: I Loss:\t-0.2723496401226673
+2022-03-28 15:24:31.035654: I Best Model params:\t{'meta': namespace(save_recs=True), 'neighbors': 50, 'similarity': 'cosine', 'implementation': 'classical', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:24:31.035678: I Best Model results:\t{10: {'nDCG': 0.2723496401226673, 'ItemCoverage': 744.0, 'HR': 0.8245901639344262, 'RMSE': 16.37736528798319}}
+2022-03-28 15:24:31.038851: I End experiment
+2022-03-28 15:24:31.046978: I Start experiment
+2022-03-28 15:24:31.064193: I /home/matejikj/references/preference-elicitation/results/10/split/0/train.tsv - Loaded
+2022-03-28 15:24:31.072175: I Test Fold 0
+2022-03-28 15:24:31.431018: I Statistics	Users:	610	Items:	8971	Transactions:	80419	Sparsity:	0.9853043778587105
+2022-03-28 15:24:31.625355: I Training begun for ProxyRecommender\n
+2022-03-28 15:24:31.625431: I Hyperparameters:
+2022-03-28 15:24:31.625464: I folder set to /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:24:31.625518: I meta set to namespace()
+2022-03-28 15:24:31.625696: I path set to /home/matejikj/references/preference-elicitation/results/10/recs/UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=.tsv
+2022-03-28 15:24:31.625886: I Exploration: Test Fold exploration number 1
+2022-03-28 15:24:31.625990: I Exploration: Train-Validation Fold exploration number 1
+2022-03-28 15:24:31.626570: W WARNING: Mean Absolute Error metric requires full length recommendations
+2022-03-28 15:24:31.626642: W At least one basic metric requires full length recommendations
+2022-03-28 15:25:07.026858: I 
+2022-03-28 15:25:07.026895: I Test Evaluation results
+2022-03-28 15:25:07.026916: I Cut-off: 10
+2022-03-28 15:25:07.026961: I Eval Time: 2.500840187072754
+2022-03-28 15:25:07.309016: I Results
+2022-03-28 15:25:07.309142: I nDCG	0.27235
+2022-03-28 15:25:07.309165: I ItemCoverage	744
+2022-03-28 15:25:07.309183: I HR	0.82459
+2022-03-28 15:25:07.309200: I RMSE	16.37737
+2022-03-28 15:25:07.310522: I Training ended for ProxyRecommender
+2022-03-28 15:25:07.310543: I Loss:\t-0.2723496401226673
+2022-03-28 15:25:07.310562: I Best Model params:\t{'folder': '/home/matejikj/references/preference-elicitation/results/10/recs', 'meta': namespace(), 'path': '/home/matejikj/references/preference-elicitation/results/10/recs/UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=.tsv', 'name': 'UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights='}
+2022-03-28 15:25:07.310582: I Best Model results:\t{10: {'nDCG': 0.2723496401226673, 'ItemCoverage': 744.0, 'HR': 0.8245901639344262, 'RMSE': 16.377365287978865}}
+2022-03-28 15:25:07.314247: I End experiment

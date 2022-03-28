@@ -1,0 +1,34 @@
+experiment:
+  dataset: movielens_1m
+  path_output_rec_result: /home/matejikj/references/preference-elicitation/results/3/recs
+  path_output_rec_weight: /home/matejikj/references/preference-elicitation/results/3/weight
+  path_output_rec_performance: /home/matejikj/references/preference-elicitation/results/3/performance
+  path_log_folder: ../results/3/log
+  data_config:
+    strategy: dataset
+    dataset_path: ../data/dataset3.tsv
+  splitting:
+    save_on_disk: True
+    save_folder: /home/matejikj/references/preference-elicitation/results/3/split
+    test_splitting:
+      strategy: random_cross_validation
+      timestamp: best
+      test_ratio: 0.2
+      leave_n_out: 1
+      folds: 5
+      validation_splitting:
+        strategy: random_cross_validation
+        timestamp: best
+        test_ratio: 0.2
+        leave_n_out: 1
+        folds: 5
+  top_k: 10
+  evaluation:
+    simple_metrics: [nDCG, ItemCoverage, HR, RMSE]
+  models:
+    UserKNN:
+      meta:
+        save_recs: True
+      neighbors: 50
+      similarity: cosine
+      implementation: classical

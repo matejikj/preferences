@@ -1,0 +1,14 @@
+2022-03-28 15:23:27.713670: I Loading parameters
+2022-03-28 15:23:27.713887: I Parameter neighbors set to 50
+2022-03-28 15:23:27.713958: I Parameter similarity set to cosine
+2022-03-28 15:23:27.714023: I Parameter implementation set to classical
+2022-03-28 15:23:27.714085: I Parameter implicit set to False
+2022-03-28 15:23:27.714147: I Parameter shrink set to 0
+2022-03-28 15:23:27.714474: I Parameter normalize set to True
+2022-03-28 15:23:27.714552: I Parameter asymmetric_alpha set to False
+2022-03-28 15:23:27.714611: I Parameter tversky_alpha set to False
+2022-03-28 15:23:27.714670: I Parameter tversky_beta set to False
+2022-03-28 15:23:27.714729: I Parameter row_weights set to None
+2022-03-28 15:23:52.498695: I Finished
+2022-03-28 15:23:52.498841: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:23:58.814250: I ******************************************

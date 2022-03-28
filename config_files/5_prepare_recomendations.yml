@@ -1,0 +1,20 @@
+experiment:
+  dataset: movielens_1m
+  path_output_rec_result: /home/matejikj/references/preference-elicitation/results/5/recs
+  path_output_rec_weight: /home/matejikj/references/preference-elicitation/results/5/weight
+  path_output_rec_performance: /home/matejikj/references/preference-elicitation/results/5/performance
+  path_log_folder: ../results/5/log
+  data_config:
+    strategy: fixed
+    train_path: /home/matejikj/references/preference-elicitation/results/5/split/0/train.tsv
+    test_path: /home/matejikj/references/preference-elicitation/results/5/split/0/test.tsv
+  top_k: 10
+  evaluation:
+    simple_metrics: [nDCG, ItemCoverage, HR, RMSE]
+  models:
+    UserKNN:
+      meta:
+        save_recs: True
+      neighbors: 50
+      similarity: cosine
+      implementation: classical

@@ -1,0 +1,70 @@
+2022-03-28 15:21:19.347094: I Loading parameters
+2022-03-28 15:21:19.347212: I Parameter neighbors set to 50
+2022-03-28 15:21:19.347267: I Parameter similarity set to cosine
+2022-03-28 15:21:19.347344: I Parameter implementation set to classical
+2022-03-28 15:21:19.347399: I Parameter implicit set to False
+2022-03-28 15:21:19.347453: I Parameter shrink set to 0
+2022-03-28 15:21:19.347506: I Parameter normalize set to True
+2022-03-28 15:21:19.347558: I Parameter asymmetric_alpha set to False
+2022-03-28 15:21:19.347627: I Parameter tversky_alpha set to False
+2022-03-28 15:21:19.347679: I Parameter tversky_beta set to False
+2022-03-28 15:21:19.347713: I Parameter row_weights set to None
+2022-03-28 15:21:45.399912: I Finished
+2022-03-28 15:21:45.400008: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:21:51.822521: I ******************************************
+2022-03-28 15:21:52.277205: I Loading parameters
+2022-03-28 15:21:52.277356: I Parameter neighbors set to 50
+2022-03-28 15:21:52.277478: I Parameter similarity set to cosine
+2022-03-28 15:21:52.277590: I Parameter implementation set to classical
+2022-03-28 15:21:52.277702: I Parameter implicit set to False
+2022-03-28 15:21:52.277803: I Parameter shrink set to 0
+2022-03-28 15:21:52.277902: I Parameter normalize set to True
+2022-03-28 15:21:52.277996: I Parameter asymmetric_alpha set to False
+2022-03-28 15:21:52.278038: I Parameter tversky_alpha set to False
+2022-03-28 15:21:52.278077: I Parameter tversky_beta set to False
+2022-03-28 15:21:52.278116: I Parameter row_weights set to None
+2022-03-28 15:22:17.921865: I Finished
+2022-03-28 15:22:17.921952: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:22:24.294153: I ******************************************
+2022-03-28 15:22:24.751760: I Loading parameters
+2022-03-28 15:22:24.751995: I Parameter neighbors set to 50
+2022-03-28 15:22:24.752167: I Parameter similarity set to cosine
+2022-03-28 15:22:24.752331: I Parameter implementation set to classical
+2022-03-28 15:22:24.752495: I Parameter implicit set to False
+2022-03-28 15:22:24.752565: I Parameter shrink set to 0
+2022-03-28 15:22:24.752616: I Parameter normalize set to True
+2022-03-28 15:22:24.752668: I Parameter asymmetric_alpha set to False
+2022-03-28 15:22:24.752719: I Parameter tversky_alpha set to False
+2022-03-28 15:22:24.752770: I Parameter tversky_beta set to False
+2022-03-28 15:22:24.752818: I Parameter row_weights set to None
+2022-03-28 15:22:49.337833: I Finished
+2022-03-28 15:22:49.338094: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:22:55.672416: I ******************************************
+2022-03-28 15:22:56.152759: I Loading parameters
+2022-03-28 15:22:56.153188: I Parameter neighbors set to 50
+2022-03-28 15:22:56.153315: I Parameter similarity set to cosine
+2022-03-28 15:22:56.153371: I Parameter implementation set to classical
+2022-03-28 15:22:56.153425: I Parameter implicit set to False
+2022-03-28 15:22:56.153476: I Parameter shrink set to 0
+2022-03-28 15:22:56.153528: I Parameter normalize set to True
+2022-03-28 15:22:56.153580: I Parameter asymmetric_alpha set to False
+2022-03-28 15:22:56.153631: I Parameter tversky_alpha set to False
+2022-03-28 15:22:56.153682: I Parameter tversky_beta set to False
+2022-03-28 15:22:56.153735: I Parameter row_weights set to None
+2022-03-28 15:23:21.033642: I Finished
+2022-03-28 15:23:21.033887: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:23:27.257090: I ******************************************
+2022-03-28 15:23:27.713670: I Loading parameters
+2022-03-28 15:23:27.713887: I Parameter neighbors set to 50
+2022-03-28 15:23:27.713958: I Parameter similarity set to cosine
+2022-03-28 15:23:27.714023: I Parameter implementation set to classical
+2022-03-28 15:23:27.714085: I Parameter implicit set to False
+2022-03-28 15:23:27.714147: I Parameter shrink set to 0
+2022-03-28 15:23:27.714474: I Parameter normalize set to True
+2022-03-28 15:23:27.714552: I Parameter asymmetric_alpha set to False
+2022-03-28 15:23:27.714611: I Parameter tversky_alpha set to False
+2022-03-28 15:23:27.714670: I Parameter tversky_beta set to False
+2022-03-28 15:23:27.714729: I Parameter row_weights set to None
+2022-03-28 15:23:52.498695: I Finished
+2022-03-28 15:23:52.498841: I Writing recommendations at: /home/matejikj/references/preference-elicitation/results/10/recs
+2022-03-28 15:23:58.814250: I ******************************************

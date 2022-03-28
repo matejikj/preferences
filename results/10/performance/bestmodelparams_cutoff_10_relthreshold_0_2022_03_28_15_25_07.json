@@ -1,0 +1,16 @@
+[
+    {
+        "default_validation_metric": "nDCG",
+        "default_validation_cutoff": 10,
+        "rel_threshold": 0
+    },
+    {
+        "meta": {},
+        "recommender": "UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=",
+        "configuration": {
+            "folder": "/home/matejikj/references/preference-elicitation/results/10/recs",
+            "path": "/home/matejikj/references/preference-elicitation/results/10/recs/UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights=.tsv",
+            "name": "UserKNN_nn=50_sim=cosine_imp=classical_bin=False_shrink=0_norm=True_asymalpha=_tvalpha=_tvbeta=_rweights="
+        }
+    }
+]
